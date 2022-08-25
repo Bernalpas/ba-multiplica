@@ -4,13 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
     <title>Productos</title>
 </head>
 <body>
 
-    <h1>
-        Soy la Página de Productos
-    </h1>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./productos.html">Productos</a></li>
+                <li><a href="./sucursales.html">Sucursales</a></li>
+            </ul>            
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="micolor">
+            Formulario de Productos
+        </h1>
+
+        <form action="" method="">
+            <div class="formulario"> 
+            <label for="nombre">Nombre: </label>
+            <input class="dato" type="text" name="nombre" id="nombre">
+            </div>
+
+            <div class="formulario">
+            <label for="telefono">Teléfono: </label>
+            <input class="dato" type="number" name="telefono" id="telefono">
+            </div>
+
+            <div class="formulario"> 
+            <label for="email">Email: </label>
+            <input class="dato" type="email" name="email" id="email">
+            </div>
+
+            <div class="formulario">
+            <label for="password">Password: </label>
+            <input class="dato" type="password" name="password" id="password">
+            </div>
+            
+
+            <input type="reset" value="Borrar campos">
+
+            <input type="submit" value="Enviar Datos">
+        </form>
+
+    </main>
+
     
 </body>
 </html>
